@@ -12,7 +12,7 @@ fu! MarkShift()
     end
     if s:MarkShiftEnabled==0
         syn match leadspace /^\s\+/ contains=shiftregion
-        exe "syn match shiftregion /\\s\\{" . &sw . "}/hs=s,he=s+1 contained"
+        exe "syn match shiftregion /\\s\\{" . &ts . "}/hs=s,he=s+1 contained"
         hi shiftregion guibg=Grey
         let s:MarkShiftEnabled=1
     else
