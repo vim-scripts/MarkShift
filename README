@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=627
+
+Usefull for editing indented source files which have been
+edited with the expand tab setting. When activated the
+first space out of every N spaces is highlighted. N is
+worked out automaticlly from the shiftwidth setting of the
+buffer.
